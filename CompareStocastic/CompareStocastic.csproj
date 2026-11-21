@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Comparison of the new SBAM implementation with stochastic matching.
+    The SBAM code is not copied: Matching_test.cs, RASMatrix_test.cs and the files they need are linked
+    from the CodeTest project, so that the comparison always uses the same code as that project.
+    ImplicitUsings must be enabled, because the linked model files do not themselves have "using System;".
+    TieredCompilation is switched off so that all methods are compiled fully optimised the first time
+    they are called; the running times are then measured on equal terms.
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <RootNamespace>CompareStocastic</RootNamespace>
+    <AssemblyName>CompareStocastic</AssemblyName>
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+
+  <!-- The new SBAM implementation and the model files it uses (linked, not copied) -->
+  <ItemGroup>
+    <Compile Include="..\CodeTest\Matching_test.cs" Link="Sbam\Matching_test.cs" />
+    <Compile Include="..\CodeTest\RASMatrix_test.cs" Link="Sbam\RASMatrix_test.cs" />
+    <Compile Include="..\CodeTest\SmileFiles\*.cs" Link="Sbam\SmileFiles\%(Filename)%(Extension)" />
+    <Compile Include="..\CodeTest\Test\TestStubs.cs" Link="Sbam\TestStubs.cs" />
+  </ItemGroup>
+
+  <!-- Required by SmileFiles\TabFileReader.cs (zip extraction and ODBC), same versions as in CodeTest -->
+  <ItemGroup>
+    <PackageReference Include="SharpCompress" Version="0.42.0" />
+    <PackageReference Include="System.Data.Odbc" Version="10.0.0" />
+  </ItemGroup>
+
+</Project>

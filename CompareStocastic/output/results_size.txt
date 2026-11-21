@@ -1,0 +1,225 @@
+Comparison of the new SBAM implementation with stochastic matching
+Experiment: size. Pools per setting: 10 (seed 1-10).
+Machine: Intel64 Family 6 Model 197 Stepping 2, GenuineIntel, 16 logical processors, .NET 8.0.34. All methods run on one thread. Process priority: High.
+The process is pinned to logical processor 1, the fastest of 16 in a calibration. A fixed computation took, in ms per logical processor: 79 74 106 105 101 106 104 108 104 100 79 76 79 82 286 275.
+
+The artificial market (base population)
+  Types per gender: 420, cells in the couple table: 176400
+  Single men: 299997, single women: 300003, couples per year: 35999.6
+  kappa = -4.561587, equilibrium error = 9.1e-13
+  Age gap: mean 1.88, SD 3.28 (men 20-29: 2.37, men 45-54: 4.47), extreme couples 0.53 pct.
+  Same education 55.4 pct., same region 76.7 pct., woman has the higher education 25.5 pct.
+Historical data: 5 years: 179363 couples in 36426 cells.
+  Types (of 840) without historical couples: 0
+Logit on potential pairs, basic specification: 179363 couples among 32171085769 potential pairs, 9 iterations, log-likelihood -2108523.9
+  Constant                                      -12.1056
+  Age difference (man minus woman)                0.1422
+  Age difference squared                         -0.0379
+  Woman two education levels higher              -1.3615
+  Woman one education level higher               -0.6076
+  Woman one education level lower                -0.7196
+  Woman two education levels lower               -1.5426
+  Same region                                     2.4496
+  Neighbouring regions (1 and 2)                  0.7821
+Logit on potential pairs, extended specification: 179363 couples among 32171085769 potential pairs, 9 iterations, log-likelihood -2072195.2
+  Constant                                      -11.8610
+  Age difference (man minus woman)                0.1367
+  Age difference squared                         -0.0292
+  Woman two education levels higher              -1.1711
+  Woman one education level higher               -0.4586
+  Woman one education level lower                -0.5928
+  Woman two education levels lower               -1.3626
+  Same region                                     2.7792
+  Neighbouring regions (1 and 2)                  0.5274
+  Mean age                                        0.6539
+  Mean age squared                                0.3673
+  Age difference x mean age                      -0.0822
+  Age difference squared x mean age               0.0215
+  Age difference squared x mean age squared      -0.0105
+  Education: man 1, woman 1                       0.5476
+  Education: man 3, woman 3                       0.3429
+  Education: man 1, woman 2                       0.1305
+  Education: man 2, woman 1                       0.1580
+  Region: man 1, woman 1                         -0.8383
+  Region: man 2, woman 2                         -0.6296
+  Region: man 3, woman 3                         -0.3722
+  Region: man 1, woman 2                          0.0051
+  Region: man 1, woman 3                         -0.3937
+  Region: man 1, woman 4                         -0.2381
+  Region: man 2, woman 3                         -0.3179
+  Region: man 2, woman 4                         -0.1181
+  Region: man 3, woman 1                         -0.4643
+  Region: man 3, woman 2                         -0.3094
+  Region: man 3, woman 4                          0.0027
+  Region: man 4, woman 1                         -0.2758
+  Region: man 4, woman 2                         -0.0962
+Set-up time (market, historical data, logit, reading of the data into the SBAM code): 0.8 s
+
+=== base population, pool x 0.1, 5 years of history ===
+Pool: 7191 persons on average (3595 men and as many women). Averages over 10 pools; the by-person implementations are run in 3 pools.
+
+Number of couples and their composition. The age gap is the man's age minus the woman's.
+                                            Couples  Pct. of     Age      SD   SD men   SD men  Extreme    Same    Same   Woman
+                                                     possible    gap            20-29    45-54     pct.    edu.    reg.  higher
+True model                                   3595.3   100.00    1.88    3.28     2.37     4.47     0.53    55.4    76.7    25.5
+True model, one draw                         3596.3   100.03    1.87    3.28     2.34     4.44     0.55    55.2    77.0    25.5
+Random matching, expected                    3595.3   100.00    1.88   11.40     8.41     8.47    34.70    35.5    27.1    35.2
+SBAM, new implementation                     3590.3    99.86    1.88    3.31     2.39     4.54     0.57    55.5    76.8    25.6
+DYNASIM rule, distance function              3595.3   100.00    1.88    4.57     2.19     9.84     2.19    42.6    27.2    31.7
+DYNASIM rule, logit index                    3595.3   100.00    1.88    4.23     3.80     4.81     1.60    48.1    62.0    29.1
+DYNASIM rule, extended logit index           3595.3   100.00    1.88    3.97     3.03     5.82     1.83    52.0    66.8    27.2
+DYNASIM rule, table index                    3595.3   100.00    1.88    5.38     4.32     8.91     4.40    50.4    65.9    28.0
+DYNASIM rule, oracle index                   3595.3   100.00    1.88    3.95     3.05     5.73     1.78    51.7    66.8    27.2
+CBOLT rule, logit index                      3595.3   100.00    1.88    3.56     3.12     3.78     0.41    53.6    74.1    26.4
+CBOLT rule, extended logit index             3595.3   100.00    1.88    3.47     2.52     4.81     0.78    54.8    74.6    25.8
+CBOLT rule, table index                      3595.3   100.00    1.88    3.48     2.46     4.90     0.72    55.1    74.9    25.8
+CBOLT rule, oracle index                     3595.3   100.00    1.88    3.44     2.49     4.72     0.68    54.8    74.6    25.8
+CORSIM rule, logit index                     3595.3   100.00    1.88    3.77     3.18     4.96     0.80    53.9    75.6    26.2
+CORSIM rule, extended logit index            3595.3   100.00    1.88    3.63     2.70     5.13     1.05    55.1    76.0    25.8
+CORSIM rule, table index                     3595.3   100.00    1.88    3.62     2.70     5.33     0.99    55.3    76.0    25.7
+CORSIM rule, oracle index                    3595.3   100.00    1.88    3.61     2.69     5.26     1.00    55.1    75.9    25.8
+CBOLT rule, logit index, by person           3612.7   100.00    1.98    3.49     2.99     3.72     0.28    53.6    74.3    26.5
+CORSIM rule, logit index, by person          3612.7   100.00    1.98    3.93     3.12     6.06     1.11    54.2    75.8    26.1
+
+Dissimilarity index D against the true model, in per cent of the couples, and running time.
+"Single pools" is the average of D in the individual pools. "All pools" is D for the couples of all pools added together.
+Forced couples have compatibility index 0. Time is the time of one call in milliseconds: the fastest pool and the median over the pools.
+                                            ------- single pools -------   ------- all pools ---------   Forced  --- Time, ms ---   Look-ups   Pools
+                                               Age     Edu     Reg   Joint     Age     Edu     Reg   Joint  couples   Fastest  Median  per couple
+True model                                    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+True model, one draw                         13.95    1.61    2.10   26.19    4.71    0.51    0.70    8.86
+Random matching, expected                    54.71   19.92   49.63   64.74   54.64   19.92   49.63   64.50
+SBAM, new implementation                     13.12    1.65    1.80   20.06    4.39    0.54    0.68    7.80               14.5    15.4                 10
+DYNASIM rule, distance function              24.70   12.82   49.53   58.09   19.96   12.82   49.53   51.35     43.0       0.4     0.4       11.3      10
+DYNASIM rule, logit index                    21.96    7.52   14.71   37.59   16.09    7.28   14.71   25.29      0.0       0.4     0.4       10.0      10
+DYNASIM rule, extended logit index           16.73    3.85    9.95   32.80    9.19    3.46    9.95   18.98      0.0       0.4     0.4       12.8      10
+DYNASIM rule, table index                    17.28    5.22   10.84   33.12    9.84    5.03   10.83   19.36    180.1       0.4     0.4       12.9      10
+DYNASIM rule, oracle index                   16.33    3.96    9.97   32.53    8.74    3.70    9.98   18.67      0.0       0.4     0.5       12.8      10
+CBOLT rule, logit index                      18.53    2.69    4.08   28.74   11.74    2.08    3.70   13.27      0.0       1.7     1.8      442.5      10
+CBOLT rule, extended logit index             14.51    2.18    2.78   26.64    5.16    0.76    2.14    9.37      0.0       1.8     1.9      443.9      10
+CBOLT rule, table index                      14.44    1.99    2.73   26.58    4.80    0.81    1.85   10.16      6.0       1.9     2.0      449.7      10
+CBOLT rule, oracle index                     14.36    1.93    2.80   26.87    4.68    0.72    2.11    9.64      0.0       1.8     1.9      443.8      10
+CORSIM rule, logit index                     17.51    2.76    3.53   28.12   11.28    2.03    3.03   12.52      0.0       4.2     4.4     1070.6      10
+CORSIM rule, extended logit index            14.20    1.88    2.40   26.28    4.99    0.92    1.30    9.20      0.0       4.2     4.2     1055.9      10
+CORSIM rule, table index                     14.11    1.96    2.39   26.55    4.90    0.82    1.26   10.04     20.0       5.1     5.2     1080.6      10
+CORSIM rule, oracle index                    14.32    1.91    2.37   26.14    4.45    0.75    1.16    9.17      0.0       4.1     4.2     1065.7      10
+CBOLT rule, logit index, by person           18.25    3.00    4.19   28.13   13.87    2.59    3.87   18.66      0.0       8.6     8.8     1830.3       3
+CORSIM rule, logit index, by person          18.23    3.28    2.72   28.12   13.40    2.73    2.53   18.51      0.0      21.9    22.2     7226.6       3
+
+SBAM, averages over the pools: ras_ms = 5.115, pairing_ms = 6.016, ras_passes = 58.4, rounds = 5, ras_converged = 1, persons_without_data = 0, couples_missing = 4.1
+Speed of the machine while the fast methods were timed: a fixed computation took 73.7-78.5 ms (median 76.4 ms), measured before the first pool and after each pool.
+[OK   ] No household in two couples, no couples of the same gender, the stochastic rules match the whole pool
+[OK   ] CBOLT rule, logit index, by person forms exactly the same couples as by type in 3 of 3 pools
+
+=== base population, pool x 0.3, 5 years of history ===
+Pool: 21514 persons on average (10757 men and as many women). Averages over 10 pools; the by-person implementations are run in 3 pools.
+
+Number of couples and their composition. The age gap is the man's age minus the woman's.
+                                            Couples  Pct. of     Age      SD   SD men   SD men  Extreme    Same    Same   Woman
+                                                     possible    gap            20-29    45-54     pct.    edu.    reg.  higher
+True model                                  10757.1   100.00    1.88    3.28     2.37     4.47     0.53    55.4    76.7    25.5
+True model, one draw                        10770.3   100.12    1.89    3.28     2.36     4.41     0.51    55.5    76.6    25.4
+Random matching, expected                   10757.1   100.00    1.88   11.45     8.44     8.50    34.89    35.6    27.1    35.2
+SBAM, new implementation                    10750.2    99.94    1.88    3.29     2.37     4.49     0.57    55.5    77.0    25.7
+DYNASIM rule, distance function             10757.1   100.00    1.88    4.58     2.19     9.86     2.22    42.6    26.9    31.8
+DYNASIM rule, logit index                   10757.1   100.00    1.88    4.18     3.74     4.81     1.54    49.2    62.0    28.7
+DYNASIM rule, extended logit index          10757.1   100.00    1.88    3.92     2.96     5.72     1.78    52.5    67.5    27.0
+DYNASIM rule, table index                   10757.1   100.00    1.88    5.37     4.29     8.93     4.39    50.5    66.3    28.1
+DYNASIM rule, oracle index                  10757.1   100.00    1.88    3.90     2.95     5.71     1.69    52.6    67.2    27.0
+CBOLT rule, logit index                     10757.1   100.00    1.88    3.50     3.07     3.64     0.32    53.4    74.1    26.6
+CBOLT rule, extended logit index            10757.1   100.00    1.88    3.43     2.47     4.58     0.73    55.0    74.7    25.9
+CBOLT rule, table index                     10757.1   100.00    1.88    3.41     2.43     4.62     0.68    54.7    75.0    26.1
+CBOLT rule, oracle index                    10757.1   100.00    1.88    3.40     2.43     4.61     0.68    55.2    74.8    25.8
+CORSIM rule, logit index                    10757.1   100.00    1.88    3.54     3.00     4.46     0.47    54.6    76.0    26.0
+CORSIM rule, extended logit index           10757.1   100.00    1.88    3.39     2.43     4.58     0.69    55.0    76.3    25.9
+CORSIM rule, table index                    10757.1   100.00    1.88    3.40     2.49     4.67     0.72    55.2    76.3    25.9
+CORSIM rule, oracle index                   10757.1   100.00    1.88    3.38     2.48     4.66     0.63    55.1    76.2    25.9
+CBOLT rule, logit index, by person          10801.7   100.00    1.90    3.48     3.07     3.58     0.30    53.6    74.0    26.4
+CORSIM rule, logit index, by person         10801.7   100.00    1.90    3.71     3.00     5.69     0.69    54.2    75.9    26.0
+
+Dissimilarity index D against the true model, in per cent of the couples, and running time.
+"Single pools" is the average of D in the individual pools. "All pools" is D for the couples of all pools added together.
+Forced couples have compatibility index 0. Time is the time of one call in milliseconds: the fastest pool and the median over the pools.
+                                            ------- single pools -------   ------- all pools ---------   Forced  --- Time, ms ---   Look-ups   Pools
+                                               Age     Edu     Reg   Joint     Age     Edu     Reg   Joint  couples   Fastest  Median  per couple
+True model                                    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+True model, one draw                          8.16    1.01    1.09   16.12    2.58    0.23    0.30    5.34
+Random matching, expected                    54.72   19.83   49.65   64.60   54.69   19.83   49.65   64.53
+SBAM, new implementation                      7.09    0.99    1.12   10.68    2.78    0.40    0.56    4.98               16.8    17.2                 10
+DYNASIM rule, distance function              21.28   12.79   49.85   53.80   19.64   12.79   49.85   50.95    126.5       1.5     1.5       11.4      10
+DYNASIM rule, logit index                    18.32    6.35   14.73   29.61   15.40    6.25   14.73   23.37      0.0       1.4     1.4       10.0      10
+DYNASIM rule, extended logit index           11.44    3.02    9.23   23.53    8.11    2.90    9.23   16.50      0.0       1.5     1.5       12.8      10
+DYNASIM rule, table index                    12.47    4.99   10.40   24.27    9.16    4.96   10.40   17.04    525.2       1.4     1.5       13.0      10
+DYNASIM rule, oracle index                   11.43    2.92    9.58   23.58    7.81    2.87    9.58   16.60      0.0       1.5     1.7       12.8      10
+CBOLT rule, logit index                      13.92    2.37    3.77   19.12   10.92    2.03    3.65   10.45      0.0       4.6     4.8      442.7      10
+CBOLT rule, extended logit index              8.75    1.32    2.28   16.76    3.45    0.55    2.02    6.19      0.0       5.1     5.3      444.7      10
+CBOLT rule, table index                       8.62    1.30    2.09   16.87    3.46    0.83    1.76    7.03      4.4       5.4     5.6      452.1      10
+CBOLT rule, oracle index                      8.49    1.11    2.23   16.45    2.90    0.42    1.94    5.81      0.0       4.9     5.3      444.7      10
+CORSIM rule, logit index                     13.72    2.28    2.86   18.61   10.85    1.91    2.79   10.09      0.0      13.3    13.4     1026.9      10
+CORSIM rule, extended logit index             8.55    1.20    1.38   16.07    3.04    0.59    0.64    5.34      0.0      13.0    13.4     1020.4      10
+CORSIM rule, table index                      8.37    1.14    1.32   16.20    3.09    0.51    0.58    6.51     16.9      15.3    15.5     1035.5      10
+CORSIM rule, oracle index                     8.20    1.15    1.34   15.90    2.53    0.49    0.56    5.14      0.0      13.0    13.5     1023.7      10
+CBOLT rule, logit index, by person           14.21    2.25    4.03   19.02   12.03    2.04    3.98   13.88      0.0      74.7    74.8     5424.3       3
+CORSIM rule, logit index, by person          13.57    2.60    2.87   18.54   11.75    2.38    2.84   12.91      0.0     195.9   196.0    21603.7       3
+
+SBAM, averages over the pools: ras_ms = 5.425, pairing_ms = 6.923, ras_passes = 55.1, rounds = 5, ras_converged = 1, persons_without_data = 0, couples_missing = 5.7
+Speed of the machine while the fast methods were timed: a fixed computation took 73.5-77.1 ms (median 75.2 ms), measured before the first pool and after each pool.
+[OK   ] No household in two couples, no couples of the same gender, the stochastic rules match the whole pool
+[OK   ] CBOLT rule, logit index, by person forms exactly the same couples as by type in 3 of 3 pools
+
+=== base population, pool x 3, 5 years of history ===
+Pool: 215994 persons on average (107997 men and as many women). Averages over 10 pools; the by-person implementations are run in 3 pools.
+
+Number of couples and their composition. The age gap is the man's age minus the woman's.
+                                            Couples  Pct. of     Age      SD   SD men   SD men  Extreme    Same    Same   Woman
+                                                     possible    gap            20-29    45-54     pct.    edu.    reg.  higher
+True model                                 107997.0   100.00    1.88    3.28     2.37     4.47     0.53    55.4    76.7    25.5
+True model, one draw                       108046.7   100.05    1.88    3.28     2.37     4.49     0.53    55.4    76.8    25.4
+Random matching, expected                  107997.0   100.00    1.87   11.45     8.45     8.50    34.86    35.6    27.0    35.0
+SBAM, new implementation                   107991.2    99.99    1.87    3.29     2.37     4.47     0.54    55.5    76.9    25.4
+DYNASIM rule, distance function            107997.0   100.00    1.87    4.58     2.21     9.96     2.22    42.9    27.1    31.5
+DYNASIM rule, logit index                  107997.0   100.00    1.87    4.17     3.75     4.77     1.50    48.9    62.0    28.6
+DYNASIM rule, extended logit index         107997.0   100.00    1.87    3.91     2.99     5.67     1.70    52.5    67.1    26.8
+DYNASIM rule, table index                  107997.0   100.00    1.87    5.35     4.30     8.96     4.30    50.5    66.2    27.8
+DYNASIM rule, oracle index                 107997.0   100.00    1.87    3.88     2.97     5.65     1.65    52.5    67.0    26.8
+CBOLT rule, logit index                    107997.0   100.00    1.87    3.49     3.04     3.65     0.30    53.6    74.2    26.3
+CBOLT rule, extended logit index           107997.0   100.00    1.87    3.40     2.46     4.57     0.67    54.9    75.0    25.7
+CBOLT rule, table index                    107997.0   100.00    1.87    3.39     2.42     4.58     0.67    55.1    75.1    25.6
+CBOLT rule, oracle index                   107997.0   100.00    1.87    3.38     2.42     4.57     0.63    55.1    75.0    25.6
+CORSIM rule, logit index                   107997.0   100.00    1.87    3.51     2.99     4.39     0.46    54.6    76.3    25.8
+CORSIM rule, extended logit index          107997.0   100.00    1.87    3.37     2.43     4.54     0.69    55.4    76.7    25.5
+CORSIM rule, table index                   107997.0   100.00    1.87    3.36     2.47     4.63     0.64    55.5    76.7    25.5
+CORSIM rule, oracle index                  107997.0   100.00    1.87    3.35     2.49     4.59     0.62    55.5    76.7    25.4
+CBOLT rule, logit index, by person         108065.7   100.00    1.87    3.49     3.04     3.65     0.30    53.6    74.0    26.3
+CORSIM rule, logit index, by person        108065.7   100.00    1.87    3.51     2.98     4.50     0.44    54.6    76.2    25.8
+
+Dissimilarity index D against the true model, in per cent of the couples, and running time.
+"Single pools" is the average of D in the individual pools. "All pools" is D for the couples of all pools added together.
+Forced couples have compatibility index 0. Time is the time of one call in milliseconds: the fastest pool and the median over the pools.
+                                            ------- single pools -------   ------- all pools ---------   Forced  --- Time, ms ---   Look-ups   Pools
+                                               Age     Edu     Reg   Joint     Age     Edu     Reg   Joint  couples   Fastest  Median  per couple
+True model                                    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+True model, one draw                          2.62    0.33    0.42    5.27    0.81    0.14    0.15    1.71
+Random matching, expected                    54.68   19.79   49.71   64.56   54.68   19.79   49.71   64.55
+SBAM, new implementation                      2.27    0.28    0.36    4.20    1.88    0.20    0.31    3.80               38.3    39.2                 10
+DYNASIM rule, distance function              19.69   12.51   49.60   50.67   19.50   12.51   49.60   50.40   1292.1      28.0    28.5       11.4      10
+DYNASIM rule, logit index                    15.44    6.51   14.72   23.61   15.06    6.51   14.72   22.73      0.0      27.3    27.5       10.0      10
+DYNASIM rule, extended logit index            8.11    2.88    9.60   16.77    7.70    2.88    9.60   15.75      0.0      28.2    28.6       12.8      10
+DYNASIM rule, table index                     8.91    4.94   10.50   16.94    8.51    4.94   10.50   15.80   5208.6      27.5    27.9       13.0      10
+DYNASIM rule, oracle index                    7.80    2.91    9.74   16.67    7.38    2.91    9.74   15.59      0.0      28.3    28.5       12.8      10
+CBOLT rule, logit index                      10.95    2.03    3.59   10.51   10.53    2.00    3.59    9.04      0.0      53.7    54.3      443.2      10
+CBOLT rule, extended logit index              3.43    0.55    1.74    5.85    2.30    0.50    1.73    3.11      0.0      56.0    56.4      445.2      10
+CBOLT rule, table index                       3.45    0.45    1.60    6.89    2.40    0.33    1.58    4.91      6.1      60.5    61.5      453.8      10
+CBOLT rule, oracle index                      2.87    0.40    1.74    5.74    1.50    0.29    1.73    2.84      0.0      56.1    56.6      445.2      10
+CORSIM rule, logit index                     10.68    1.94    2.39    9.78   10.30    1.92    2.39    8.15      0.0     149.8   150.5     1018.2      10
+CORSIM rule, extended logit index             3.04    0.40    0.41    5.22    1.65    0.23    0.26    1.87      0.0     150.3   150.6     1017.2      10
+CORSIM rule, table index                      3.20    0.39    0.39    6.29    2.10    0.24    0.26    4.10     92.3     168.9   169.6     1017.8      10
+CORSIM rule, oracle index                     2.55    0.32    0.34    5.11    0.84    0.06    0.10    1.65      0.0     149.8   150.8     1018.0      10
+CBOLT rule, logit index, by person           10.93    2.03    3.75   10.57   10.64    1.99    3.75    9.47      0.0    7281.1  7328.7    54056.7       3
+CORSIM rule, logit index, by person          10.68    1.91    2.51    9.73   10.44    1.88    2.51    8.56      0.0   19630.0 19772.0   216131.8       3
+
+SBAM, averages over the pools: ras_ms = 5.407, pairing_ms = 10.639, ras_passes = 49.9, rounds = 5, ras_converged = 1, persons_without_data = 0, couples_missing = 5
+Speed of the machine while the fast methods were timed: a fixed computation took 72.8-75.7 ms (median 74.3 ms), measured before the first pool and after each pool.
+[OK   ] No household in two couples, no couples of the same gender, the stochastic rules match the whole pool
+[OK   ] CBOLT rule, logit index, by person forms exactly the same couples as by type in 3 of 3 pools
+
