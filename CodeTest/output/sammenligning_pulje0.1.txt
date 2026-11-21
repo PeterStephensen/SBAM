@@ -1,0 +1,195 @@
+Sammenligning af Matching.cs og varianterne i Matching_test.cs
+Kørsler pr. faktor: 10 (seed 1-10), typeopdeling: landsdel, pulje x 0.1, andel af mændene fjernet: 0
+Ændringer: 0 = Reset() gendanner de historiske data, 1 = RAS til konvergens, 2 = tabellen summerer til antal par,
+           3 = pardannelse i ét gennemløb
+           4 = hurtigere beregning af RAS: 4a faktorer i arrays, 4b én faktor pr. type (symmetri), 4c kun typer med personer i puljen
+A1 er det første kald af matching() på et nyt Matching-objekt, A2 det andet kald på samme objekt (modellens andet år og frem).
+A1 viser også, hvad Matching.cs giver i alle år, når kun ændring 0 er lavet.
+
+Kontrol af de hurtige RAS-metoder på 20 tilfældige symmetriske matricer med 30-59 typer og celler i diagonalen.
+Alle metoder er kørt til ende. Største relative afvigelse i en foldet celle fra den oprindelige metode:
+  4a (faktorer): 2.7e-13   4a+4b (symmetrisk): 6.0e-13   Symmetrisk, største afvigelse fra en types mål: 2.2e-13
+[OK  ] De hurtige RAS-metoder giver samme tilpassede tabel som den oprindelige (afvigelse under 1e-8)
+Sidste type med kun én celle (3 typer, alle med data): typer, hvis mål sættes til 0, fordi de mangler data: oprindelig metode 1, hurtig metode 0
+
+=== MatchingScaleUp = 1 ===
+Pulje: 7222 personer (3611 mænd, 3611 kvinder), mål: 3610 par. Gennemsnit over 10 kørsler.
+
+Antal par og parrenes sammensætning
+Tid er medianen over kørslerne af tiden i matching() i millisekunder; "RAS" og "par" er den del, der går til RAS-tilpasning og pardannelse.
+                                        Par  Pct. af  Alders-    Std.  Ekstr.  Samme  Samme   Tabte      RAS-  Runder    Tid  heraf  heraf
+                                             målet    forskel          pct.    udd.   reg.    par   gennemløb           ms    RAS    par
+Sand model (mu)                       36000              1.88    3.28    0.53   55.4   76.7
+Reference-SBAM, forventet            3609.9   100.00     1.87    3.29    0.54   55.2   76.4
+Reference-SBAM, ét træk              3598.1    99.67     1.88    3.29    0.48   55.1   76.3
+A1 Matching.cs, første år            3593.7    99.55     1.91    3.33    0.58   53.6   74.2                 2            965
+A2 Matching.cs, senere år            3595.3    99.60     1.88    4.34    1.47   42.6   42.4                 2            953
+B  0+1                               3597.4    99.65     1.88    3.34    0.60   53.6   74.4 31438.4      58.7     1.0    689   93.8  582.8
+C  0+1+2                             3598.8    99.69     1.88    3.34    0.60   53.6   74.4 31434.8      58.7     1.0    694   95.1  586.0
+D  0+1+2+3 uafhængig afrunding       3110.2    86.16     1.88    3.20    0.47   55.2   76.7   499.5      58.7     1.0    107   99.6    1.1
+E  0+1+2+3 systematisk, typeorden    3238.1    89.70     1.88    3.23    0.46   55.1   77.0   371.8      58.7     1.0    105   95.5    4.2
+F  0+1+2+3 systematisk, hierark.     3177.2    88.01     1.89    3.21    0.43   55.5   76.8   432.7      58.7     1.0    107   95.8    5.0
+G  F med opsamlingsrunder            3604.5    99.85     1.87    3.28    0.52   55.5   76.7   619.9      58.7     5.0    875  846.0   24.3
+H  F uden 1 (0+2+3)                  3183.8    88.20     1.87    3.20    0.42   55.6   76.9   426.1       2.0     1.0     23   12.2    5.5
+I  F uden 2 (0+1+3)                  3188.5    88.33     1.90    3.21    0.48   55.5   76.9   422.3      58.7     1.0    109   97.8    5.5
+J  F uden 1 og 2 (0+3)               3172.2    87.88     1.88    3.20    0.45   55.6   77.0   438.6       2.0     1.0     22   12.0    5.1
+K  F med højst 10 RAS-gennemløb      3177.6    88.02     1.89    3.20    0.44   55.6   76.8   432.3      10.0*    1.0     34   23.5    5.3
+L  G med højst 10 RAS-gennemløb      3605.2    99.87     1.87    3.26    0.53   55.5   76.7   621.4      10.0*    5.0    139  108.7   22.8
+M  L + 4a (faktorer i arrays)        3605.2    99.87     1.87    3.26    0.53   55.5   76.7   621.4      10.0*    5.0     29    6.2   18.7
+N  L + 4a+4b (symmetri)              3604.3    99.84     1.87    3.30    0.60   55.4   76.7   629.3      10.0*    5.0     27    3.9   18.4
+O  L + 4a+4b+4c (aktive typer)       3603.5    99.82     1.87    3.29    0.61   55.4   76.7   631.6      10.0*    5.0     13    1.8    6.1
+P  O, RAS til konvergens             3604.5    99.85     1.87    3.30    0.55   55.3   77.0   633.4      58.8     5.0     16    5.8    5.8
+Q  P, én runde                       3177.5    88.02     1.85    3.22    0.47   55.5   77.0   432.4      58.8     1.0     12    3.4    4.6
+S  O, én runde                       3183.5    88.19     1.87    3.21    0.52   55.6   76.8   426.5      10.0*    1.0     10    1.0    4.6
+
+Dissimilaritetsindeks D i pct. af parrene (gennemsnit af D i de enkelte kørsler). "Sum" er D for kørslerne lagt sammen.
+                                   ---- mod den sande model ----   ---- mod reference-SBAM -----   -- Sum, samlet --   Typer
+                                    Alder    Udd    Reg  Samlet     Alder    Udd    Reg  Samlet    Sand    Reference   mod pulje
+Reference-SBAM, forventet            5.66   1.56   1.71   10.02      0.00   0.00   0.00    0.00    5.06         0.00
+Reference-SBAM, ét træk             14.97   2.17   2.73   27.73     13.89   1.82   2.21   25.78
+A1 Matching.cs, første år           12.82   2.39   3.04   25.33     11.54   1.72   2.40   23.07   10.40         8.94      0.46
+A2 Matching.cs, senere år           23.36  12.86  34.35   50.94     22.93  12.62  34.03   49.79   41.71        40.94      0.42
+B  0+1                              13.24   2.38   2.96   25.40     11.78   1.70   2.30   22.98   10.47         9.02      0.36
+C  0+1+2                            13.04   2.43   3.00   25.32     11.64   1.75   2.32   22.86   10.38         8.92      0.33
+D  0+1+2+3 uafhængig afrunding      13.91   2.38   2.80   26.85     12.61   1.81   2.10   24.16   10.83         9.48      8.17
+E  0+1+2+3 systematisk, typeorden   13.92   1.82   2.63   23.46     12.46   1.02   1.80   20.33    9.42         7.84      6.11
+F  0+1+2+3 systematisk, hierark.    13.80   1.99   2.38   20.26     12.50   1.24   1.38   16.54    8.50         6.67      7.02
+G  F med opsamlingsrunder           12.99   1.68   1.77   20.07     11.54   0.54   0.59   16.21    7.89         5.65      0.17
+H  F uden 1 (0+2+3)                 13.95   1.97   2.14   20.28     12.68   1.30   1.46   16.73    8.69         6.84      6.92
+I  F uden 2 (0+1+3)                 14.03   2.00   2.29   20.35     12.43   1.25   1.35   16.54    8.55         6.72      6.98
+J  F uden 1 og 2 (0+3)              14.04   1.79   1.95   20.22     12.82   1.22   1.43   16.80    8.58         6.93      7.11
+K  F med højst 10 RAS-gennemløb     14.01   2.07   2.21   20.37     12.60   1.42   1.31   16.65    8.64         6.79      7.10
+L  G med højst 10 RAS-gennemløb     13.00   1.64   1.72   20.04     11.55   0.54   0.57   16.19    7.80         5.57      0.15
+M  L + 4a (faktorer i arrays)       13.00   1.64   1.72   20.04     11.55   0.54   0.57   16.19    7.80         5.57      0.15
+N  L + 4a+4b (symmetri)             13.02   1.63   1.82   20.26     11.58   0.50   0.56   16.44    7.93         5.66      0.18
+O  L + 4a+4b+4c (aktive typer)      12.95   1.67   1.71   19.96     11.52   0.51   0.53   16.19    7.88         5.64      0.20
+P  O, RAS til konvergens            12.86   1.69   1.79   19.96     11.48   0.53   0.77   16.21    7.84         5.75      0.17
+Q  P, én runde                      13.78   1.88   2.30   20.26     12.46   1.26   1.38   16.61    8.58         6.79      7.09
+S  O, én runde                      13.87   1.86   2.39   20.12     12.47   1.19   1.35   16.39    8.58         6.69      6.89
+
+[OK  ] Matching_test med alt slået fra danner præcis de samme par som Matching.cs, både i første og andet kald
+[OK  ] Ingen husholdning i to par, ingen par med samme køn, ikke flere par end målet (den oprindelige løkke: højst ét mere)
+[OK  ] Variant M danner præcis de samme par som variant L i 10 af 10 kørsler
+* RAS-tilpasningen nåede ikke tolerancen i mindst én kørsel.
+
+=== MatchingScaleUp = 1.05 ===
+Pulje: 7579 personer (3789 mænd, 3789 kvinder), mål: 3607 par. Gennemsnit over 10 kørsler.
+
+Antal par og parrenes sammensætning
+Tid er medianen over kørslerne af tiden i matching() i millisekunder; "RAS" og "par" er den del, der går til RAS-tilpasning og pardannelse.
+                                        Par  Pct. af  Alders-    Std.  Ekstr.  Samme  Samme   Tabte      RAS-  Runder    Tid  heraf  heraf
+                                             målet    forskel          pct.    udd.   reg.    par   gennemløb           ms    RAS    par
+Sand model (mu)                       36000              1.88    3.28    0.53   55.4   76.7
+Reference-SBAM, forventet            3607.4   100.00     1.85    3.29    0.54   55.2   76.4
+Reference-SBAM, ét træk              3597.7    99.73     1.83    3.28    0.59   55.1   77.0
+A1 Matching.cs, første år            3607.4   100.00     1.87    3.30    0.50   54.2   75.3                 2             27
+A2 Matching.cs, senere år            3607.4   100.00     1.83    4.34    1.52   41.7   42.0                 2             29
+B  0+1                               3607.4   100.00     1.88    3.30    0.55   53.9   74.8  2243.8      57.2     1.0    103   95.7    1.4
+C  0+1+2                             3607.4   100.00     1.85    3.31    0.54   54.0   74.7  2283.1      57.2     1.0    101   93.7    1.7
+D  0+1+2+3 uafhængig afrunding       3211.6    89.03     1.85    3.22    0.52   55.5   76.5   413.6      57.2     1.0    105   99.3    1.1
+E  0+1+2+3 systematisk, typeorden    3335.0    92.45     1.87    3.21    0.49   55.4   76.6   272.4      57.2     1.0    113   96.9    4.4
+F  0+1+2+3 systematisk, hierark.     3276.3    90.82     1.86    3.20    0.40   55.4   76.8   331.1      57.2     1.0    105   93.5    5.1
+G  F med opsamlingsrunder            3607.4   100.00     1.86    3.23    0.44   55.3   76.7   384.8      57.2     3.9    475  451.7   18.1
+H  F uden 1 (0+2+3)                  3270.0    90.65     1.87    3.22    0.50   55.5   76.9   337.4       2.0     1.0     23   11.7    5.0
+I  F uden 2 (0+1+3)                  3349.8    92.86     1.85    3.21    0.46   55.5   76.9   439.5      57.2     1.0    101   90.6    5.0
+J  F uden 1 og 2 (0+3)               3354.1    92.98     1.89    3.18    0.42   55.5   76.8   435.2       2.0     1.0     24   12.4    5.1
+K  F med højst 10 RAS-gennemløb      3268.2    90.60     1.87    3.22    0.47   55.4   76.8   339.2      10.0*    1.0     33   22.7    5.1
+L  G med højst 10 RAS-gennemløb      3607.4   100.00     1.86    3.27    0.52   55.3   76.8   395.1      10.0*    4.0    118   92.6   18.5
+M  L + 4a (faktorer i arrays)        3607.4   100.00     1.86    3.27    0.52   55.3   76.8   395.1      10.0*    4.0     25    5.4   15.3
+N  L + 4a+4b (symmetri)              3607.4   100.00     1.86    3.27    0.56   55.4   76.8   385.1      10.0*    4.0     23    3.3   15.0
+O  L + 4a+4b+4c (aktive typer)       3607.4   100.00     1.85    3.26    0.45   55.6   76.8   389.8      10.0*    4.0     13    2.0    6.8
+P  O, RAS til konvergens             3607.4   100.00     1.85    3.25    0.48   55.3   76.7   381.8      58.0     3.9     19    7.1    7.4
+Q  P, én runde                       3281.9    90.98     1.88    3.22    0.48   55.4   76.7   325.5      58.0     1.0     14    3.6    4.6
+S  O, én runde                       3273.0    90.73     1.86    3.21    0.40   55.6   76.8   334.5      10.0*    1.0     10    1.0    4.6
+
+Dissimilaritetsindeks D i pct. af parrene (gennemsnit af D i de enkelte kørsler). "Sum" er D for kørslerne lagt sammen.
+                                   ---- mod den sande model ----   ---- mod reference-SBAM -----   -- Sum, samlet --   Typer
+                                    Alder    Udd    Reg  Samlet     Alder    Udd    Reg  Samlet    Sand    Reference   mod pulje
+Reference-SBAM, forventet            5.53   1.50   1.66    9.91      0.00   0.00   0.00    0.00    5.10         0.00
+Reference-SBAM, ét træk             15.41   2.34   2.74   27.78     14.21   1.89   2.35   25.80
+A1 Matching.cs, første år           12.60   2.08   2.31   25.38     11.41   1.71   1.69   22.96   10.51         8.97      3.80
+A2 Matching.cs, senere år           23.55  13.74  34.75   51.29     23.12  13.50  34.43   50.17   42.27        41.51      4.06
+B  0+1                              13.07   2.38   2.89   25.27     11.62   1.72   2.12   22.88   10.48         8.78      3.84
+C  0+1+2                            13.00   2.23   2.94   25.32     11.74   1.61   2.09   22.74   10.49         8.86      3.81
+D  0+1+2+3 uafhængig afrunding      13.62   2.16   2.68   26.27     12.26   1.70   2.00   23.80   10.39         9.00      8.28
+E  0+1+2+3 systematisk, typeorden   13.68   1.85   2.44   22.84     12.40   1.06   1.50   19.57    9.08         7.50      6.23
+F  0+1+2+3 systematisk, hierark.    13.67   1.65   2.20   19.70     12.32   1.12   1.25   15.79    8.33         6.46      7.23
+G  F med opsamlingsrunder           12.72   1.52   1.83   19.54     11.41   0.53   0.70   15.52    7.74         5.61      3.18
+H  F uden 1 (0+2+3)                 13.72   1.86   2.01   19.53     12.50   1.16   1.32   15.95    8.25         6.49      7.24
+I  F uden 2 (0+1+3)                 13.54   1.78   2.19   19.88     12.18   1.19   1.30   16.12    8.50         6.64      6.85
+J  F uden 1 og 2 (0+3)              13.71   1.80   1.98   19.61     12.38   1.23   1.42   16.16    8.43         6.66      6.77
+K  F med højst 10 RAS-gennemløb     13.73   1.79   2.03   19.66     12.33   1.14   1.19   15.89    8.32         6.49      7.27
+L  G med højst 10 RAS-gennemløb     12.98   1.56   1.78   19.59     11.54   0.58   0.70   15.64    7.83         5.60      3.18
+M  L + 4a (faktorer i arrays)       12.98   1.56   1.78   19.59     11.54   0.58   0.70   15.64    7.83         5.60      3.18
+N  L + 4a+4b (symmetri)             12.75   1.57   1.88   19.46     11.27   0.60   0.72   15.61    7.93         5.77      3.19
+O  L + 4a+4b+4c (aktive typer)      12.82   1.59   1.77   19.44     11.44   0.63   0.70   15.53    7.93         5.66      3.17
+P  O, RAS til konvergens            13.13   1.61   1.84   19.38     11.72   0.63   0.67   15.50    7.66         5.53      3.17
+Q  P, én runde                      13.80   1.79   2.14   19.52     12.35   1.13   1.17   15.68    8.33         6.38      7.12
+S  O, én runde                      13.53   1.69   2.17   19.57     12.35   1.13   1.31   15.81    8.45         6.55      7.21
+
+[OK  ] Matching_test med alt slået fra danner præcis de samme par som Matching.cs, både i første og andet kald
+[OK  ] Ingen husholdning i to par, ingen par med samme køn, ikke flere par end målet (den oprindelige løkke: højst ét mere)
+[OK  ] Variant M danner præcis de samme par som variant L i 10 af 10 kørsler
+* RAS-tilpasningen nåede ikke tolerancen i mindst én kørsel.
+
+=== MatchingScaleUp = 1.3 ===
+Pulje: 9338 personer (4669 mænd, 4669 kvinder), mål: 3590 par. Gennemsnit over 10 kørsler.
+
+Antal par og parrenes sammensætning
+Tid er medianen over kørslerne af tiden i matching() i millisekunder; "RAS" og "par" er den del, der går til RAS-tilpasning og pardannelse.
+                                        Par  Pct. af  Alders-    Std.  Ekstr.  Samme  Samme   Tabte      RAS-  Runder    Tid  heraf  heraf
+                                             målet    forskel          pct.    udd.   reg.    par   gennemløb           ms    RAS    par
+Sand model (mu)                       36000              1.88    3.28    0.53   55.4   76.7
+Reference-SBAM, forventet            3590.3   100.00     1.86    3.29    0.54   55.2   76.4
+Reference-SBAM, ét træk              3579.0    99.69     1.85    3.31    0.60   55.0   76.2
+A1 Matching.cs, første år            3590.3   100.00     1.88    3.32    0.46   53.3   75.1                 2             26
+A2 Matching.cs, senere år            3590.3   100.00     1.84    4.32    1.47   41.8   41.8                 2             27
+B  0+1                               3590.3   100.00     1.91    3.33    0.55   53.1   75.0   273.0      56.8     1.0    103   96.7    0.6
+C  0+1+2                             3590.3   100.00     1.88    3.30    0.50   53.9   74.6   253.2      56.8     1.0     99   93.0    1.1
+D  0+1+2+3 uafhængig afrunding       3459.4    96.35     1.87    3.25    0.56   55.1   76.5   144.7      56.8     1.0    101   94.3    1.1
+E  0+1+2+3 systematisk, typeorden    3506.1    97.65     1.89    3.26    0.53   55.3   76.5    84.2      56.8     1.0    106   95.4    4.4
+F  0+1+2+3 systematisk, hierark.     3477.2    96.85     1.87    3.25    0.50   55.4   76.6   113.1      56.8     1.0    106   94.5    5.1
+G  F med opsamlingsrunder            3590.3   100.00     1.86    3.25    0.50   55.4   76.6   113.5      56.8     2.2    232  213.3    9.4
+H  F uden 1 (0+2+3)                  3478.4    96.88     1.89    3.25    0.48   55.2   76.6   111.9       2.0     1.0     22   11.4    5.1
+I  F uden 2 (0+1+3)                  3590.3   100.00     1.85    3.21    0.41   55.1   76.5   147.1      56.8     1.0    107   96.9    5.1
+J  F uden 1 og 2 (0+3)               3590.3   100.00     1.87    3.25    0.45   55.3   76.5   143.5       2.0     1.0     24   11.4    5.6
+K  F med højst 10 RAS-gennemløb      3480.1    96.93     1.87    3.25    0.47   55.3   76.6   110.2      10.0*    1.0     35   24.7    5.1
+L  G med højst 10 RAS-gennemløb      3590.3   100.00     1.87    3.26    0.47   55.2   76.6   110.7      10.0*    2.4     66   49.2   11.2
+M  L + 4a (faktorer i arrays)        3590.3   100.00     1.87    3.26    0.47   55.2   76.6   110.7      10.0*    2.4     23    2.6    8.9
+N  L + 4a+4b (symmetri)              3590.3   100.00     1.86    3.26    0.52   55.2   76.5   108.6      10.0*    2.5     18    2.0   11.4
+O  L + 4a+4b+4c (aktive typer)       3590.3   100.00     1.86    3.26    0.49   55.2   76.5   110.5      10.0*    2.4     16    2.4    7.7
+P  O, RAS til konvergens             3590.3   100.00     1.87    3.25    0.46   55.2   76.6   105.1      58.8     2.2     19    6.2    7.5
+Q  P, én runde                       3485.4    97.08     1.88    3.25    0.47   55.3   76.6   104.9      58.8     1.0     13    3.5    4.7
+S  O, én runde                       3480.6    96.94     1.87    3.25    0.49   55.3   76.5   109.9      10.0*    1.0     10    1.0    4.7
+
+Dissimilaritetsindeks D i pct. af parrene (gennemsnit af D i de enkelte kørsler). "Sum" er D for kørslerne lagt sammen.
+                                   ---- mod den sande model ----   ---- mod reference-SBAM -----   -- Sum, samlet --   Typer
+                                    Alder    Udd    Reg  Samlet     Alder    Udd    Reg  Samlet    Sand    Reference   mod pulje
+Reference-SBAM, forventet            5.14   1.33   1.59    9.08      0.00   0.00   0.00    0.00    4.92         0.00
+Reference-SBAM, ét træk             15.23   1.91   2.50   27.65     14.21   1.54   1.91   25.84
+A1 Matching.cs, første år           13.69   2.84   2.95   26.57     12.89   2.34   2.44   24.89   11.79        10.54      9.86
+A2 Matching.cs, senere år           23.89  13.69  34.91   51.31     23.49  13.46  34.62   50.29   42.16        41.42      9.91
+B  0+1                              13.86   2.91   2.96   26.77     12.87   2.46   2.31   24.91   11.66        10.42      9.83
+C  0+1+2                            13.27   2.37   3.34   25.84     12.31   1.94   2.55   23.99   10.54         9.15      9.17
+D  0+1+2+3 uafhængig afrunding      13.28   2.08   2.40   24.97     12.11   1.53   1.61   22.85    9.76         8.21      9.21
+E  0+1+2+3 systematisk, typeorden   13.09   1.55   1.92   21.73     11.85   0.82   0.97   18.80    8.51         6.66      6.87
+F  0+1+2+3 systematisk, hierark.    13.06   1.39   1.76   17.68     11.93   0.66   0.69   13.72    7.52         5.39      8.03
+G  F med opsamlingsrunder           12.87   1.36   1.73   17.83     11.71   0.62   0.63   14.00    7.46         5.34      7.35
+H  F uden 1 (0+2+3)                 13.01   1.34   1.59   17.58     12.16   0.63   0.78   13.85    7.46         5.38      8.07
+I  F uden 2 (0+1+3)                 13.40   1.67   2.14   20.33     12.25   1.08   1.12   17.49    8.15         6.19      8.84
+J  F uden 1 og 2 (0+3)              13.50   1.83   2.02   20.27     12.48   1.19   1.25   17.67    8.16         6.25      8.73
+K  F med højst 10 RAS-gennemløb     13.17   1.45   1.77   17.69     12.03   0.65   0.61   13.71    7.47         5.33      8.07
+L  G med højst 10 RAS-gennemløb     12.96   1.42   1.75   17.85     11.83   0.58   0.56   13.99    7.51         5.35      7.43
+M  L + 4a (faktorer i arrays)       12.96   1.42   1.75   17.85     11.83   0.58   0.56   13.99    7.51         5.35      7.43
+N  L + 4a+4b (symmetri)             12.97   1.33   1.72   17.81     11.74   0.55   0.60   14.03    7.35         5.20      7.37
+O  L + 4a+4b+4c (aktive typer)      12.87   1.34   1.79   17.78     11.60   0.48   0.60   13.94    7.36         5.22      7.36
+P  O, RAS til konvergens            13.01   1.46   1.74   17.71     11.76   0.50   0.54   13.78    7.53         5.33      7.45
+Q  P, én runde                      13.18   1.43   1.77   17.61     11.96   0.50   0.59   13.54    7.51         5.32      8.09
+S  O, én runde                      13.08   1.37   1.80   17.61     11.89   0.54   0.65   13.67    7.38         5.25      8.06
+
+[OK  ] Matching_test med alt slået fra danner præcis de samme par som Matching.cs, både i første og andet kald
+[OK  ] Ingen husholdning i to par, ingen par med samme køn, ikke flere par end målet (den oprindelige løkke: højst ét mere)
+[OK  ] Variant M danner præcis de samme par som variant L i 10 af 10 kørsler
+* RAS-tilpasningen nåede ikke tolerancen i mindst én kørsel.
+
+Udskriften er gemt i C:\Users\b007566\OneDrive - DREAM-gruppen\Projekter\SMILE\AI\SBAM\CodeTest\output\sammenligning_pulje0.1.txt

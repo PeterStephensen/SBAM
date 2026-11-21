@@ -1,0 +1,12 @@
+# Build output
+bin/
+obj/
+.vs/
+
+# LaTeX working files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+CodeTest/doc/tmp_png/

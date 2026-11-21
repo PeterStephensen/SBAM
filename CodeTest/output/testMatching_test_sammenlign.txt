@@ -1,0 +1,2549 @@
+Match> Indlæser data...
+Match> Linier læst: 180627
+Match> Sorterer...
+Match> Aggregerer...
+Match> Allokerer RASMatrix...
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	1.4e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72665.9999999998
+Test: Antal personer i rasAdj efter afrunding	54978
+Test: Andel efter afrunding	75.66%
+Finder par...
+udeladt		22882
+ukendtType		0
+For små		-22681
+succes		36132
+targetAntalPar		36332
+Succes-rate		0.9944678391544877
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	5.5e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72666.00000000016
+Test: Antal personer i rasAdj efter afrunding	53919
+Test: Andel efter afrunding	74.2%
+Finder par...
+udeladt		18392
+ukendtType		0
+For små		-17969
+succes		35910
+targetAntalPar		36332
+Succes-rate		0.9883576913549665
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	62	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72665.99999999977
+Test: Antal personer i rasAdj efter afrunding	55020
+Test: Andel efter afrunding	75.72%
+Finder par...
+udeladt		22871
+ukendtType		0
+For små		-22713
+succes		36175
+targetAntalPar		36332
+Succes-rate		0.9956513362507913
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	62	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72663.99999999997
+Test: Antal personer i rasAdj efter afrunding	55016
+Test: Andel efter afrunding	75.71%
+Finder par...
+udeladt		22867
+ukendtType		0
+For små		-22715
+succes		36181
+targetAntalPar		36332
+Succes-rate		0.9958164753805081
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	62	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72663.99999999997
+Test: Antal personer i rasAdj efter afrunding	55016
+Test: Andel efter afrunding	75.71%
+Finder par...
+TEST3: Runde 1	35361 par
+udeladt		1025
+ukendtType		0
+For små		-53
+succes		35361
+targetAntalPar		36332
+Succes-rate		0.9732474609858806
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	62	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72663.99999999997
+Test: Antal personer i rasAdj efter afrunding	55016
+Test: Andel efter afrunding	75.71%
+Finder par...
+TEST3: Runde 1	35625 par
+udeladt		707
+ukendtType		0
+For små		1
+succes		35625
+targetAntalPar		36332
+Succes-rate		0.9805135826934193
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	62	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72663.99999999997
+Test: Antal personer i rasAdj efter afrunding	55016
+Test: Andel efter afrunding	75.71%
+Finder par...
+TEST3: Runde 1	35527 par
+udeladt		805
+ukendtType		0
+For små		1
+succes		35527
+targetAntalPar		36332
+Succes-rate		0.9778163102413784
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	62	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72663.99999999997
+Test: Antal personer i rasAdj efter afrunding	55016
+Test: Andel efter afrunding	75.71%
+Finder par...
+TEST3: Runde 1	35527 par
+TEST3: Runde 2	621 par
+TEST3: Runde 3	119 par
+TEST3: Runde 4	42 par
+TEST3: Runde 5	15 par
+udeladt		1085
+ukendtType		0
+For små		-1076
+succes		36324
+targetAntalPar		36332
+Succes-rate		0.9997522913054249
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	1.4e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72664.00000000003
+Test: Antal personer i rasAdj efter afrunding	54978
+Test: Andel efter afrunding	75.66%
+Finder par...
+TEST3: Runde 1	35490 par
+udeladt		842
+ukendtType		0
+For små		1
+succes		35490
+targetAntalPar		36332
+Succes-rate		0.9767979522747915
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	62	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72665.99999999977
+Test: Antal personer i rasAdj efter afrunding	55020
+Test: Andel efter afrunding	75.72%
+Finder par...
+TEST3: Runde 1	35515 par
+udeladt		818
+ukendtType		0
+For små		0
+succes		35515
+targetAntalPar		36332
+Succes-rate		0.9774860319819448
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	1.4e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72665.9999999998
+Test: Antal personer i rasAdj efter afrunding	54978
+Test: Andel efter afrunding	75.66%
+Finder par...
+TEST3: Runde 1	35528 par
+udeladt		805
+ukendtType		0
+For små		0
+succes		35528
+targetAntalPar		36332
+Succes-rate		0.9778438334296645
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	2.8e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72663.9999999998
+Test: Antal personer i rasAdj efter afrunding	55015
+Test: Andel efter afrunding	75.71%
+Finder par...
+TEST3: Runde 1	35569 par
+udeladt		763
+ukendtType		0
+For små		1
+succes		35569
+targetAntalPar		36332
+Succes-rate		0.9789722841493959
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	2.8e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72663.9999999998
+Test: Antal personer i rasAdj efter afrunding	55015
+Test: Andel efter afrunding	75.71%
+Finder par...
+TEST3: Runde 1	35569 par
+TEST3: Runde 2	595 par
+TEST3: Runde 3	112 par
+TEST3: Runde 4	37 par
+TEST3: Runde 5	13 par
+udeladt		1012
+ukendtType		0
+For små		-1005
+succes		36326
+targetAntalPar		36332
+Succes-rate		0.999807337681997
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	2.8e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72663.99999999978
+Test: Antal personer i rasAdj efter afrunding	55015
+Test: Andel efter afrunding	75.71%
+Finder par...
+TEST3: Runde 1	35569 par
+TEST3: Runde 2	595 par
+TEST3: Runde 3	112 par
+TEST3: Runde 4	37 par
+TEST3: Runde 5	13 par
+udeladt		1012
+ukendtType		0
+For små		-1005
+succes		36326
+targetAntalPar		36332
+Succes-rate		0.999807337681997
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	2.5e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72664.95608735392
+Test: Antal personer i rasAdj efter afrunding	55026
+Test: Andel efter afrunding	75.73%
+Finder par...
+TEST3: Runde 1	35538 par
+TEST3: Runde 2	628 par
+TEST3: Runde 3	111 par
+TEST3: Runde 4	33 par
+TEST3: Runde 5	15 par
+udeladt		1040
+ukendtType		0
+For små		-1032
+succes		36325
+targetAntalPar		36332
+Succes-rate		0.999779814493711
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	2.5e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72664.95608735392
+Test: Antal personer i rasAdj efter afrunding	55026
+Test: Andel efter afrunding	75.73%
+Finder par...
+TEST3: Runde 1	35538 par
+TEST3: Runde 2	620 par
+TEST3: Runde 3	115 par
+TEST3: Runde 4	36 par
+TEST3: Runde 5	15 par
+udeladt		1058
+ukendtType		0
+For små		-1049
+succes		36324
+targetAntalPar		36332
+Succes-rate		0.9997522913054249
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	62	fejl i forhold til mål	8.6e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72664.00001416932
+Test: Antal personer i rasAdj efter afrunding	55016
+Test: Andel efter afrunding	75.71%
+Finder par...
+TEST3: Runde 1	35525 par
+TEST3: Runde 2	632 par
+TEST3: Runde 3	122 par
+TEST3: Runde 4	31 par
+TEST3: Runde 5	15 par
+udeladt		1064
+ukendtType		0
+For små		-1056
+succes		36325
+targetAntalPar		36332
+Succes-rate		0.999779814493711
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	62	fejl i forhold til mål	8.6e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72664.00001416932
+Test: Antal personer i rasAdj efter afrunding	55016
+Test: Andel efter afrunding	75.71%
+Finder par...
+TEST3: Runde 1	35525 par
+udeladt		807
+ukendtType		0
+For små		1
+succes		35525
+targetAntalPar		36332
+Succes-rate		0.9777612638648061
+****************************************************************************
+År: 2013
+Antal personer i pool	72666
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	72666
+Maksimalt antal par	36333
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36332 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	2.5e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72664.95608735392
+Test: Antal personer i rasAdj efter afrunding	55026
+Test: Andel efter afrunding	75.73%
+Finder par...
+TEST3: Runde 1	35538 par
+udeladt		794
+ukendtType		0
+For små		1
+succes		35538
+targetAntalPar		36332
+Succes-rate		0.9781190653125258
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	1.2e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71558.00000000007
+Test: Antal personer i rasAdj efter afrunding	53964
+Test: Andel efter afrunding	75.41%
+Finder par...
+udeladt		22933
+ukendtType		0
+For små		-22775
+succes		35621
+targetAntalPar		35778
+Succes-rate		0.9955840017887587
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	5.5e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71558.00000000015
+Test: Antal personer i rasAdj efter afrunding	52756
+Test: Andel efter afrunding	73.72%
+Finder par...
+udeladt		18450
+ukendtType		0
+For små		-18029
+succes		35358
+targetAntalPar		35778
+Succes-rate		0.9882333212219458
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	9.9e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71557.99999999983
+Test: Antal personer i rasAdj efter afrunding	54006
+Test: Andel efter afrunding	75.47%
+Finder par...
+udeladt		22908
+ukendtType		0
+For små		-22768
+succes		35639
+targetAntalPar		35778
+Succes-rate		0.996087090192571
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	9.9e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71556.00000000033
+Test: Antal personer i rasAdj efter afrunding	54004
+Test: Andel efter afrunding	75.47%
+Finder par...
+udeladt		22922
+ukendtType		0
+For små		-22769
+succes		35626
+targetAntalPar		35778
+Succes-rate		0.9957237485675955
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	9.9e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71556.00000000033
+Test: Antal personer i rasAdj efter afrunding	54004
+Test: Andel efter afrunding	75.47%
+Finder par...
+TEST3: Runde 1	34766 par
+udeladt		893
+ukendtType		0
+For små		120
+succes		34766
+targetAntalPar		35778
+Succes-rate		0.9716873026076749
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	9.9e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71556.00000000033
+Test: Antal personer i rasAdj efter afrunding	54004
+Test: Andel efter afrunding	75.47%
+Finder par...
+TEST3: Runde 1	35122 par
+udeladt		656
+ukendtType		0
+For små		1
+succes		35122
+targetAntalPar		35778
+Succes-rate		0.9816372732608514
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	9.9e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71556.00000000033
+Test: Antal personer i rasAdj efter afrunding	54004
+Test: Andel efter afrunding	75.47%
+Finder par...
+TEST3: Runde 1	35017 par
+udeladt		761
+ukendtType		0
+For små		1
+succes		35017
+targetAntalPar		35778
+Succes-rate		0.9787025909052797
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	9.9e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71556.00000000033
+Test: Antal personer i rasAdj efter afrunding	54004
+Test: Andel efter afrunding	75.47%
+Finder par...
+TEST3: Runde 1	35017 par
+TEST3: Runde 2	592 par
+TEST3: Runde 3	113 par
+TEST3: Runde 4	37 par
+TEST3: Runde 5	13 par
+udeladt		1011
+ukendtType		0
+For små		-1004
+succes		35772
+targetAntalPar		35778
+Succes-rate		0.9998043545096286
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	1.2e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71556.00000000017
+Test: Antal personer i rasAdj efter afrunding	53964
+Test: Andel efter afrunding	75.42%
+Finder par...
+TEST3: Runde 1	35041 par
+udeladt		737
+ukendtType		0
+For små		1
+succes		35041
+targetAntalPar		35778
+Succes-rate		0.9793733754436961
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	9.9e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71557.99999999983
+Test: Antal personer i rasAdj efter afrunding	54006
+Test: Andel efter afrunding	75.47%
+Finder par...
+TEST3: Runde 1	35002 par
+udeladt		777
+ukendtType		0
+For små		0
+succes		35002
+targetAntalPar		35778
+Succes-rate		0.9782833505687694
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	1.2e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71558.00000000007
+Test: Antal personer i rasAdj efter afrunding	53964
+Test: Andel efter afrunding	75.41%
+Finder par...
+TEST3: Runde 1	34989 par
+udeladt		790
+ukendtType		0
+For små		0
+succes		34989
+targetAntalPar		35778
+Succes-rate		0.9779200089437938
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.7e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71555.99999999962
+Test: Antal personer i rasAdj efter afrunding	53982
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35035 par
+udeladt		743
+ukendtType		0
+For små		1
+succes		35035
+targetAntalPar		35778
+Succes-rate		0.979205679309092
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.7e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71555.99999999962
+Test: Antal personer i rasAdj efter afrunding	53982
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35035 par
+TEST3: Runde 2	574 par
+TEST3: Runde 3	114 par
+TEST3: Runde 4	34 par
+TEST3: Runde 5	13 par
+udeladt		996
+ukendtType		0
+For små		-987
+succes		35770
+targetAntalPar		35778
+Succes-rate		0.9997484557980939
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.7e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71555.9999999996
+Test: Antal personer i rasAdj efter afrunding	53982
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35035 par
+TEST3: Runde 2	574 par
+TEST3: Runde 3	114 par
+TEST3: Runde 4	34 par
+TEST3: Runde 5	13 par
+udeladt		996
+ukendtType		0
+For små		-987
+succes		35770
+targetAntalPar		35778
+Succes-rate		0.9997484557980939
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	2.2e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71556.48844844772
+Test: Antal personer i rasAdj efter afrunding	53983
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35002 par
+TEST3: Runde 2	606 par
+TEST3: Runde 3	112 par
+TEST3: Runde 4	38 par
+TEST3: Runde 5	13 par
+udeladt		1032
+ukendtType		0
+For små		-1024
+succes		35771
+targetAntalPar		35778
+Succes-rate		0.9997764051538612
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	2.2e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71556.48844844772
+Test: Antal personer i rasAdj efter afrunding	53983
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35002 par
+TEST3: Runde 2	604 par
+TEST3: Runde 3	113 par
+TEST3: Runde 4	35 par
+TEST3: Runde 5	15 par
+udeladt		1039
+ukendtType		0
+For små		-1029
+succes		35769
+targetAntalPar		35778
+Succes-rate		0.9997205064423265
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	61	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71555.9999886719
+Test: Antal personer i rasAdj efter afrunding	54004
+Test: Andel efter afrunding	75.47%
+Finder par...
+TEST3: Runde 1	35016 par
+TEST3: Runde 2	596 par
+TEST3: Runde 3	116 par
+TEST3: Runde 4	33 par
+TEST3: Runde 5	13 par
+udeladt		999
+ukendtType		0
+For små		-994
+succes		35774
+targetAntalPar		35778
+Succes-rate		0.9998602532211632
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	61	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71555.9999886719
+Test: Antal personer i rasAdj efter afrunding	54004
+Test: Andel efter afrunding	75.47%
+Finder par...
+TEST3: Runde 1	35016 par
+udeladt		762
+ukendtType		0
+For små		1
+succes		35016
+targetAntalPar		35778
+Succes-rate		0.9786746415495123
+****************************************************************************
+År: 2013
+Antal personer i pool	71558
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71558
+Maksimalt antal par	35779
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35778 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	2.2e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71556.48844844772
+Test: Antal personer i rasAdj efter afrunding	53983
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35002 par
+udeladt		776
+ukendtType		0
+For små		1
+succes		35002
+targetAntalPar		35778
+Succes-rate		0.9782833505687694
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	7.5e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71937.99999999971
+Test: Antal personer i rasAdj efter afrunding	54390
+Test: Andel efter afrunding	75.61%
+Finder par...
+udeladt		22891
+ukendtType		0
+For små		-22770
+succes		35848
+targetAntalPar		35968
+Succes-rate		0.9966359921043121
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	5.5e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71938.00000000004
+Test: Antal personer i rasAdj efter afrunding	53115
+Test: Andel efter afrunding	73.83%
+Finder par...
+udeladt		18512
+ukendtType		0
+For små		-18096
+succes		35553
+targetAntalPar		35968
+Succes-rate		0.9884344852511885
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	43	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71938.00000000022
+Test: Antal personer i rasAdj efter afrunding	54390
+Test: Andel efter afrunding	75.61%
+Finder par...
+udeladt		22940
+ukendtType		0
+For små		-22782
+succes		35811
+targetAntalPar		35968
+Succes-rate		0.9956073285329033
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	43	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71936.00000000019
+Test: Antal personer i rasAdj efter afrunding	54388
+Test: Andel efter afrunding	75.61%
+Finder par...
+udeladt		22925
+ukendtType		0
+For små		-22786
+succes		35830
+targetAntalPar		35968
+Succes-rate		0.9961355611776808
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	43	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71936.00000000019
+Test: Antal personer i rasAdj efter afrunding	54388
+Test: Andel efter afrunding	75.61%
+Finder par...
+TEST3: Runde 1	34994 par
+udeladt		1019
+ukendtType		0
+For små		-44
+succes		34994
+targetAntalPar		35968
+Succes-rate		0.9728933248074731
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	43	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71936.00000000019
+Test: Antal personer i rasAdj efter afrunding	54388
+Test: Andel efter afrunding	75.61%
+Finder par...
+TEST3: Runde 1	35250 par
+udeladt		718
+ukendtType		0
+For små		1
+succes		35250
+targetAntalPar		35968
+Succes-rate		0.9800105646528956
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	43	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71936.00000000019
+Test: Antal personer i rasAdj efter afrunding	54388
+Test: Andel efter afrunding	75.61%
+Finder par...
+TEST3: Runde 1	35167 par
+udeladt		801
+ukendtType		0
+For små		1
+succes		35167
+targetAntalPar		35968
+Succes-rate		0.9777030220467625
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	43	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71936.00000000019
+Test: Antal personer i rasAdj efter afrunding	54388
+Test: Andel efter afrunding	75.61%
+Finder par...
+TEST3: Runde 1	35167 par
+TEST3: Runde 2	617 par
+TEST3: Runde 3	121 par
+TEST3: Runde 4	40 par
+TEST3: Runde 5	18 par
+udeladt		1076
+ukendtType		0
+For små		-1070
+succes		35963
+targetAntalPar		35968
+Succes-rate		0.9998331896911229
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	7.5e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71936.00000000003
+Test: Antal personer i rasAdj efter afrunding	54389
+Test: Andel efter afrunding	75.61%
+Finder par...
+TEST3: Runde 1	35185 par
+udeladt		783
+ukendtType		0
+For små		1
+succes		35185
+targetAntalPar		35968
+Succes-rate		0.9782034529733937
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	43	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71938.00000000022
+Test: Antal personer i rasAdj efter afrunding	54390
+Test: Andel efter afrunding	75.61%
+Finder par...
+TEST3: Runde 1	35204 par
+udeladt		765
+ukendtType		0
+For små		0
+succes		35204
+targetAntalPar		35968
+Succes-rate		0.9787316856181713
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	7.5e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71937.99999999971
+Test: Antal personer i rasAdj efter afrunding	54390
+Test: Andel efter afrunding	75.61%
+Finder par...
+TEST3: Runde 1	35167 par
+udeladt		802
+ukendtType		0
+For små		0
+succes		35167
+targetAntalPar		35968
+Succes-rate		0.9777030220467625
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.8e-4	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71936.00000000009
+Test: Antal personer i rasAdj efter afrunding	54387
+Test: Andel efter afrunding	75.6%
+Finder par...
+TEST3: Runde 1	35163 par
+udeladt		805
+ukendtType		0
+For små		1
+succes		35163
+targetAntalPar		35968
+Succes-rate		0.9775918151741778
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.8e-4	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71936.00000000009
+Test: Antal personer i rasAdj efter afrunding	54387
+Test: Andel efter afrunding	75.6%
+Finder par...
+TEST3: Runde 1	35163 par
+TEST3: Runde 2	640 par
+TEST3: Runde 3	112 par
+TEST3: Runde 4	34 par
+TEST3: Runde 5	14 par
+udeladt		1047
+ukendtType		0
+For små		-1041
+succes		35963
+targetAntalPar		35968
+Succes-rate		0.9998331896911229
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.8e-4	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71936.00000000007
+Test: Antal personer i rasAdj efter afrunding	54387
+Test: Andel efter afrunding	75.6%
+Finder par...
+TEST3: Runde 1	35163 par
+TEST3: Runde 2	640 par
+TEST3: Runde 3	112 par
+TEST3: Runde 4	34 par
+TEST3: Runde 5	14 par
+udeladt		1047
+ukendtType		0
+For små		-1041
+succes		35963
+targetAntalPar		35968
+Succes-rate		0.9998331896911229
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	6.2e-4	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71936.85025787634
+Test: Antal personer i rasAdj efter afrunding	54389
+Test: Andel efter afrunding	75.61%
+Finder par...
+TEST3: Runde 1	35198 par
+TEST3: Runde 2	595 par
+TEST3: Runde 3	113 par
+TEST3: Runde 4	41 par
+TEST3: Runde 5	14 par
+udeladt		1038
+ukendtType		0
+For små		-1030
+succes		35961
+targetAntalPar		35968
+Succes-rate		0.9997775862548306
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	6.2e-4	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71936.85025787634
+Test: Antal personer i rasAdj efter afrunding	54389
+Test: Andel efter afrunding	75.61%
+Finder par...
+TEST3: Runde 1	35198 par
+TEST3: Runde 2	602 par
+TEST3: Runde 3	111 par
+TEST3: Runde 4	37 par
+TEST3: Runde 5	14 par
+udeladt		1021
+ukendtType		0
+For små		-1014
+succes		35962
+targetAntalPar		35968
+Succes-rate		0.9998053879729767
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	50	fejl i forhold til mål	9.2e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71935.99972827492
+Test: Antal personer i rasAdj efter afrunding	54388
+Test: Andel efter afrunding	75.61%
+Finder par...
+TEST3: Runde 1	35168 par
+TEST3: Runde 2	612 par
+TEST3: Runde 3	122 par
+TEST3: Runde 4	46 par
+TEST3: Runde 5	13 par
+udeladt		1081
+ukendtType		0
+For små		-1073
+succes		35961
+targetAntalPar		35968
+Succes-rate		0.9997775862548306
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	50	fejl i forhold til mål	9.2e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71935.99972827492
+Test: Antal personer i rasAdj efter afrunding	54388
+Test: Andel efter afrunding	75.61%
+Finder par...
+TEST3: Runde 1	35168 par
+udeladt		800
+ukendtType		0
+For små		1
+succes		35168
+targetAntalPar		35968
+Succes-rate		0.9777308237649087
+****************************************************************************
+År: 2013
+Antal personer i pool	71938
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	71938
+Maksimalt antal par	35969
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35968 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	6.2e-4	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71936.85025787634
+Test: Antal personer i rasAdj efter afrunding	54389
+Test: Andel efter afrunding	75.61%
+Finder par...
+TEST3: Runde 1	35198 par
+udeladt		770
+ukendtType		0
+For små		1
+succes		35198
+targetAntalPar		35968
+Succes-rate		0.9785648753092941
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	1.0e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	94366.00000000013
+Test: Antal personer i rasAdj efter afrunding	76198
+Test: Andel efter afrunding	80.75%
+Finder par...
+udeladt		5743
+ukendtType		0
+For små		5147
+succes		36293
+targetAntalPar		36293
+Succes-rate		0.7691965326494712
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	5.5e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	94366.00000000032
+Test: Antal personer i rasAdj efter afrunding	76191
+Test: Andel efter afrunding	80.74%
+Finder par...
+udeladt		1421
+ukendtType		0
+For små		9468
+succes		36294
+targetAntalPar		36293
+Succes-rate		0.7692177267236081
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	57	fejl i forhold til mål	9.2e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	94366.00000000026
+Test: Antal personer i rasAdj efter afrunding	76136
+Test: Andel efter afrunding	80.68%
+Finder par...
+udeladt		5807
+ukendtType		0
+For små		5083
+succes		36293
+targetAntalPar		36293
+Succes-rate		0.7691965326494712
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	57	fejl i forhold til mål	9.2e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72585.99999999974
+Test: Antal personer i rasAdj efter afrunding	54932
+Test: Andel efter afrunding	75.68%
+Finder par...
+udeladt		3956
+ukendtType		0
+For små		6934
+succes		36293
+targetAntalPar		36293
+Succes-rate		0.7691965326494712
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	57	fejl i forhold til mål	9.2e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72585.99999999974
+Test: Antal personer i rasAdj efter afrunding	54932
+Test: Andel efter afrunding	75.68%
+Finder par...
+TEST3: Runde 1	36293 par
+udeladt		20
+ukendtType		0
+For små		10870
+succes		36293
+targetAntalPar		36293
+Succes-rate		0.7691965326494712
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	57	fejl i forhold til mål	9.2e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72585.99999999974
+Test: Antal personer i rasAdj efter afrunding	54932
+Test: Andel efter afrunding	75.68%
+Finder par...
+TEST3: Runde 1	36283 par
+udeladt		10
+ukendtType		0
+For små		10890
+succes		36283
+targetAntalPar		36293
+Succes-rate		0.7689845919081025
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	57	fejl i forhold til mål	9.2e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72585.99999999974
+Test: Antal personer i rasAdj efter afrunding	54932
+Test: Andel efter afrunding	75.68%
+Finder par...
+TEST3: Runde 1	36279 par
+udeladt		14
+ukendtType		0
+For små		10890
+succes		36279
+targetAntalPar		36293
+Succes-rate		0.768899815611555
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	57	fejl i forhold til mål	9.2e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72585.99999999974
+Test: Antal personer i rasAdj efter afrunding	54932
+Test: Andel efter afrunding	75.68%
+Finder par...
+TEST3: Runde 1	36279 par
+TEST3: Runde 2	14 par
+udeladt		14
+ukendtType		0
+For små		10876
+succes		36293
+targetAntalPar		36293
+Succes-rate		0.7691965326494712
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	1.0e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72586.00000000015
+Test: Antal personer i rasAdj efter afrunding	54925
+Test: Andel efter afrunding	75.67%
+Finder par...
+TEST3: Runde 1	36285 par
+udeladt		8
+ukendtType		0
+For små		10890
+succes		36285
+targetAntalPar		36293
+Succes-rate		0.7690269800563763
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	57	fejl i forhold til mål	9.2e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	94366.00000000026
+Test: Antal personer i rasAdj efter afrunding	76136
+Test: Andel efter afrunding	80.68%
+Finder par...
+TEST3: Runde 1	36293 par
+udeladt		14
+ukendtType		0
+For små		10876
+succes		36293
+targetAntalPar		36293
+Succes-rate		0.7691965326494712
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	1.0e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	94366.00000000013
+Test: Antal personer i rasAdj efter afrunding	76198
+Test: Andel efter afrunding	80.75%
+Finder par...
+TEST3: Runde 1	36293 par
+udeladt		9
+ukendtType		0
+For små		10881
+succes		36293
+targetAntalPar		36293
+Succes-rate		0.7691965326494712
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.4e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72586.00000000035
+Test: Antal personer i rasAdj efter afrunding	54942
+Test: Andel efter afrunding	75.69%
+Finder par...
+TEST3: Runde 1	36283 par
+udeladt		10
+ukendtType		0
+For små		10890
+succes		36283
+targetAntalPar		36293
+Succes-rate		0.7689845919081025
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.4e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72586.00000000035
+Test: Antal personer i rasAdj efter afrunding	54942
+Test: Andel efter afrunding	75.69%
+Finder par...
+TEST3: Runde 1	36283 par
+TEST3: Runde 2	10 par
+udeladt		10
+ukendtType		0
+For små		10880
+succes		36293
+targetAntalPar		36293
+Succes-rate		0.7691965326494712
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.4e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72586.00000000035
+Test: Antal personer i rasAdj efter afrunding	54942
+Test: Andel efter afrunding	75.69%
+Finder par...
+TEST3: Runde 1	36283 par
+TEST3: Runde 2	10 par
+udeladt		10
+ukendtType		0
+For små		10880
+succes		36293
+targetAntalPar		36293
+Succes-rate		0.7691965326494712
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.1e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72586.92640911421
+Test: Antal personer i rasAdj efter afrunding	54960
+Test: Andel efter afrunding	75.72%
+Finder par...
+TEST3: Runde 1	36282 par
+TEST3: Runde 2	11 par
+udeladt		12
+ukendtType		0
+For små		10878
+succes		36293
+targetAntalPar		36293
+Succes-rate		0.7691965326494712
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.1e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72586.92640911421
+Test: Antal personer i rasAdj efter afrunding	54960
+Test: Andel efter afrunding	75.72%
+Finder par...
+TEST3: Runde 1	36282 par
+TEST3: Runde 2	11 par
+udeladt		12
+ukendtType		0
+For små		10878
+succes		36293
+targetAntalPar		36293
+Succes-rate		0.7691965326494712
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	55	fejl i forhold til mål	9.7e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72585.9999523386
+Test: Antal personer i rasAdj efter afrunding	54932
+Test: Andel efter afrunding	75.68%
+Finder par...
+TEST3: Runde 1	36279 par
+TEST3: Runde 2	14 par
+udeladt		14
+ukendtType		0
+For små		10876
+succes		36293
+targetAntalPar		36293
+Succes-rate		0.7691965326494712
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	55	fejl i forhold til mål	9.7e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72585.9999523386
+Test: Antal personer i rasAdj efter afrunding	54932
+Test: Andel efter afrunding	75.68%
+Finder par...
+TEST3: Runde 1	36279 par
+udeladt		14
+ukendtType		0
+For små		10890
+succes		36279
+targetAntalPar		36293
+Succes-rate		0.768899815611555
+****************************************************************************
+År: 2013
+Antal personer i pool	94366
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	94366
+Maksimalt antal par	47183
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36293 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.1e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72586.92640911421
+Test: Antal personer i rasAdj efter afrunding	54960
+Test: Andel efter afrunding	75.72%
+Finder par...
+TEST3: Runde 1	36282 par
+udeladt		12
+ukendtType		0
+For små		10889
+succes		36282
+targetAntalPar		36293
+Succes-rate		0.7689633978339656
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	1.1e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	93005.99999999983
+Test: Antal personer i rasAdj efter afrunding	74753
+Test: Andel efter afrunding	80.37%
+Finder par...
+udeladt		5756
+ukendtType		0
+For små		4977
+succes		35770
+targetAntalPar		35770
+Succes-rate		0.7691976861707847
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	5.5e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	93005.9999999997
+Test: Antal personer i rasAdj efter afrunding	74741
+Test: Andel efter afrunding	80.36%
+Finder par...
+udeladt		1171
+ukendtType		0
+For små		9562
+succes		35770
+targetAntalPar		35770
+Succes-rate		0.7691976861707847
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	93005.99999999975
+Test: Antal personer i rasAdj efter afrunding	74745
+Test: Andel efter afrunding	80.37%
+Finder par...
+udeladt		5633
+ukendtType		0
+For små		5100
+succes		35770
+targetAntalPar		35770
+Succes-rate		0.7691976861707847
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71539.99999999987
+Test: Antal personer i rasAdj efter afrunding	53968
+Test: Andel efter afrunding	75.44%
+Finder par...
+udeladt		3802
+ukendtType		0
+For små		6931
+succes		35770
+targetAntalPar		35770
+Succes-rate		0.7691976861707847
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71539.99999999987
+Test: Antal personer i rasAdj efter afrunding	53968
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35692 par
+udeladt		9
+ukendtType		0
+For små		10802
+succes		35692
+targetAntalPar		35770
+Succes-rate		0.7675203750295679
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71539.99999999987
+Test: Antal personer i rasAdj efter afrunding	53968
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35764 par
+udeladt		6
+ukendtType		0
+For små		10733
+succes		35764
+targetAntalPar		35770
+Succes-rate		0.7690686622368449
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71539.99999999987
+Test: Antal personer i rasAdj efter afrunding	53968
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35757 par
+udeladt		13
+ukendtType		0
+For små		10733
+succes		35757
+targetAntalPar		35770
+Succes-rate		0.7689181343139152
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71539.99999999987
+Test: Antal personer i rasAdj efter afrunding	53968
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35757 par
+TEST3: Runde 2	13 par
+udeladt		13
+ukendtType		0
+For små		10720
+succes		35770
+targetAntalPar		35770
+Succes-rate		0.7691976861707847
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	1.1e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71539.99999999984
+Test: Antal personer i rasAdj efter afrunding	53994
+Test: Andel efter afrunding	75.47%
+Finder par...
+TEST3: Runde 1	35762 par
+udeladt		8
+ukendtType		0
+For små		10733
+succes		35762
+targetAntalPar		35770
+Succes-rate		0.769025654258865
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	58	fejl i forhold til mål	8.8e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	93005.99999999975
+Test: Antal personer i rasAdj efter afrunding	74745
+Test: Andel efter afrunding	80.37%
+Finder par...
+TEST3: Runde 1	35770 par
+udeladt		14
+ukendtType		0
+For små		10719
+succes		35770
+targetAntalPar		35770
+Succes-rate		0.7691976861707847
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	1.1e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	93005.99999999983
+Test: Antal personer i rasAdj efter afrunding	74753
+Test: Andel efter afrunding	80.37%
+Finder par...
+TEST3: Runde 1	35770 par
+udeladt		10
+ukendtType		0
+For små		10723
+succes		35770
+targetAntalPar		35770
+Succes-rate		0.7691976861707847
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.5e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71539.99999999999
+Test: Antal personer i rasAdj efter afrunding	53970
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35762 par
+udeladt		8
+ukendtType		0
+For små		10733
+succes		35762
+targetAntalPar		35770
+Succes-rate		0.769025654258865
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.5e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71539.99999999999
+Test: Antal personer i rasAdj efter afrunding	53970
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35762 par
+TEST3: Runde 2	8 par
+udeladt		8
+ukendtType		0
+For små		10725
+succes		35770
+targetAntalPar		35770
+Succes-rate		0.7691976861707847
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.5e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71539.99999999999
+Test: Antal personer i rasAdj efter afrunding	53970
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35762 par
+TEST3: Runde 2	8 par
+udeladt		8
+ukendtType		0
+For små		10725
+succes		35770
+targetAntalPar		35770
+Succes-rate		0.7691976861707847
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.9e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71540.43003377324
+Test: Antal personer i rasAdj efter afrunding	53966
+Test: Andel efter afrunding	75.43%
+Finder par...
+TEST3: Runde 1	35765 par
+TEST3: Runde 2	5 par
+udeladt		6
+ukendtType		0
+For små		10727
+succes		35770
+targetAntalPar		35770
+Succes-rate		0.7691976861707847
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.9e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71540.43003377324
+Test: Antal personer i rasAdj efter afrunding	53966
+Test: Andel efter afrunding	75.43%
+Finder par...
+TEST3: Runde 1	35765 par
+TEST3: Runde 2	5 par
+udeladt		6
+ukendtType		0
+For små		10727
+succes		35770
+targetAntalPar		35770
+Succes-rate		0.7691976861707847
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	60	fejl i forhold til mål	9.2e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71539.99992297676
+Test: Antal personer i rasAdj efter afrunding	53968
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35757 par
+TEST3: Runde 2	13 par
+udeladt		13
+ukendtType		0
+For små		10720
+succes		35770
+targetAntalPar		35770
+Succes-rate		0.7691976861707847
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	60	fejl i forhold til mål	9.2e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71539.99992297676
+Test: Antal personer i rasAdj efter afrunding	53968
+Test: Andel efter afrunding	75.44%
+Finder par...
+TEST3: Runde 1	35757 par
+udeladt		13
+ukendtType		0
+For små		10733
+succes		35757
+targetAntalPar		35770
+Succes-rate		0.7689181343139152
+****************************************************************************
+År: 2013
+Antal personer i pool	93006
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93006
+Maksimalt antal par	46503
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	35770 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.9e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	71540.43003377324
+Test: Antal personer i rasAdj efter afrunding	53966
+Test: Andel efter afrunding	75.43%
+Finder par...
+TEST3: Runde 1	35765 par
+udeladt		6
+ukendtType		0
+For små		10732
+succes		35765
+targetAntalPar		35770
+Succes-rate		0.7690901662258349
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	7.5e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	93831.9999999994
+Test: Antal personer i rasAdj efter afrunding	75630
+Test: Andel efter afrunding	80.6%
+Finder par...
+udeladt		5602
+ukendtType		0
+For små		5227
+succes		36087
+targetAntalPar		36087
+Succes-rate		0.7691832210759656
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	5.5e-2	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	93832.00000000038
+Test: Antal personer i rasAdj efter afrunding	75600
+Test: Andel efter afrunding	80.57%
+Finder par...
+udeladt		1303
+ukendtType		0
+For små		9526
+succes		36087
+targetAntalPar		36087
+Succes-rate		0.7691832210759656
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	55	fejl i forhold til mål	8.6e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	93832.00000000051
+Test: Antal personer i rasAdj efter afrunding	75606
+Test: Andel efter afrunding	80.58%
+Finder par...
+udeladt		5641
+ukendtType		0
+For små		5187
+succes		36088
+targetAntalPar		36087
+Succes-rate		0.76920453576605
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	55	fejl i forhold til mål	8.6e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72174.00000000003
+Test: Antal personer i rasAdj efter afrunding	54525
+Test: Andel efter afrunding	75.55%
+Finder par...
+udeladt		3707
+ukendtType		0
+For små		7122
+succes		36087
+targetAntalPar		36087
+Succes-rate		0.7691832210759656
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	55	fejl i forhold til mål	8.6e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72174.00000000003
+Test: Antal personer i rasAdj efter afrunding	54525
+Test: Andel efter afrunding	75.55%
+Finder par...
+TEST3: Runde 1	36081 par
+udeladt		10
+ukendtType		0
+For små		10825
+succes		36081
+targetAntalPar		36087
+Succes-rate		0.7690553329354591
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	55	fejl i forhold til mål	8.6e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72174.00000000003
+Test: Antal personer i rasAdj efter afrunding	54525
+Test: Andel efter afrunding	75.55%
+Finder par...
+TEST3: Runde 1	36077 par
+udeladt		10
+ukendtType		0
+For små		10829
+succes		36077
+targetAntalPar		36087
+Succes-rate		0.7689700741751215
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	55	fejl i forhold til mål	8.6e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72174.00000000003
+Test: Antal personer i rasAdj efter afrunding	54525
+Test: Andel efter afrunding	75.55%
+Finder par...
+TEST3: Runde 1	36072 par
+udeladt		15
+ukendtType		0
+For små		10829
+succes		36072
+targetAntalPar		36087
+Succes-rate		0.7688635007246994
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	55	fejl i forhold til mål	8.6e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72174.00000000003
+Test: Antal personer i rasAdj efter afrunding	54525
+Test: Andel efter afrunding	75.55%
+Finder par...
+TEST3: Runde 1	36072 par
+TEST3: Runde 2	15 par
+udeladt		15
+ukendtType		0
+For små		10814
+succes		36087
+targetAntalPar		36087
+Succes-rate		0.7691832210759656
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	7.5e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72174.00000000001
+Test: Antal personer i rasAdj efter afrunding	54512
+Test: Andel efter afrunding	75.53%
+Finder par...
+TEST3: Runde 1	36073 par
+udeladt		14
+ukendtType		0
+For små		10829
+succes		36073
+targetAntalPar		36087
+Succes-rate		0.7688848154147838
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	55	fejl i forhold til mål	8.6e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	93832.00000000051
+Test: Antal personer i rasAdj efter afrunding	75606
+Test: Andel efter afrunding	80.58%
+Finder par...
+TEST3: Runde 1	36087 par
+udeladt		16
+ukendtType		0
+For små		10813
+succes		36087
+targetAntalPar		36087
+Succes-rate		0.7691832210759656
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST1: RAS-gennemløb	2	fejl i forhold til mål	7.5e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	93831.9999999994
+Test: Antal personer i rasAdj efter afrunding	75630
+Test: Andel efter afrunding	80.6%
+Finder par...
+TEST3: Runde 1	36087 par
+udeladt		10
+ukendtType		0
+For små		10819
+succes		36087
+targetAntalPar		36087
+Succes-rate		0.7691832210759656
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	9.6e-4	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72173.99999999993
+Test: Antal personer i rasAdj efter afrunding	54543
+Test: Andel efter afrunding	75.57%
+Finder par...
+TEST3: Runde 1	36073 par
+udeladt		14
+ukendtType		0
+For små		10829
+succes		36073
+targetAntalPar		36087
+Succes-rate		0.7688848154147838
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	9.6e-4	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72173.99999999993
+Test: Antal personer i rasAdj efter afrunding	54543
+Test: Andel efter afrunding	75.57%
+Finder par...
+TEST3: Runde 1	36073 par
+TEST3: Runde 2	14 par
+udeladt		14
+ukendtType		0
+For små		10815
+succes		36087
+targetAntalPar		36087
+Succes-rate		0.7691832210759656
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	9.6e-4	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72173.99999999994
+Test: Antal personer i rasAdj efter afrunding	54543
+Test: Andel efter afrunding	75.57%
+Finder par...
+TEST3: Runde 1	36073 par
+TEST3: Runde 2	14 par
+udeladt		14
+ukendtType		0
+For små		10815
+succes		36087
+targetAntalPar		36087
+Succes-rate		0.7691832210759656
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.3e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72174.3727889268
+Test: Antal personer i rasAdj efter afrunding	54540
+Test: Andel efter afrunding	75.57%
+Finder par...
+TEST3: Runde 1	36077 par
+TEST3: Runde 2	10 par
+udeladt		10
+ukendtType		0
+For små		10819
+succes		36087
+targetAntalPar		36087
+Succes-rate		0.7691832210759656
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.3e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72174.3727889268
+Test: Antal personer i rasAdj efter afrunding	54540
+Test: Andel efter afrunding	75.57%
+Finder par...
+TEST3: Runde 1	36077 par
+TEST3: Runde 2	10 par
+udeladt		10
+ukendtType		0
+For små		10819
+succes		36087
+targetAntalPar		36087
+Succes-rate		0.7691832210759656
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	57	fejl i forhold til mål	9.0e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72173.99967960578
+Test: Antal personer i rasAdj efter afrunding	54525
+Test: Andel efter afrunding	75.55%
+Finder par...
+TEST3: Runde 1	36073 par
+TEST3: Runde 2	14 par
+udeladt		14
+ukendtType		0
+For små		10815
+succes		36087
+targetAntalPar		36087
+Succes-rate		0.7691832210759656
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	57	fejl i forhold til mål	9.0e-7	konvergeret	True
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72173.99967960578
+Test: Antal personer i rasAdj efter afrunding	54525
+Test: Andel efter afrunding	75.55%
+Finder par...
+TEST3: Runde 1	36073 par
+udeladt		14
+ukendtType		0
+For små		10829
+succes		36073
+targetAntalPar		36087
+Succes-rate		0.7688848154147838
+****************************************************************************
+År: 2013
+Antal personer i pool	93832
+Fylder dictionary...
+Antal personer i pool (aldersgrænse)	93832
+Maksimalt antal par	46916
+Randomiserer...
+RAS-adjustment:
+TEST2: Målet summerer til	36087 par (0 personer er af typer uden historiske data)
+TEST1: RAS-gennemløb	10	fejl i forhold til mål	1.3e-3	konvergeret	False
+Sorterer rasAdj...
+Test: Antal personer i rasAdj	72174.3727889268
+Test: Antal personer i rasAdj efter afrunding	54540
+Test: Andel efter afrunding	75.57%
+Finder par...
+TEST3: Runde 1	36077 par
+udeladt		10
+ukendtType		0
+For små		10829
+succes		36077
+targetAntalPar		36087
+Succes-rate		0.7689700741751215

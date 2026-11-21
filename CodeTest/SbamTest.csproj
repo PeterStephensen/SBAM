@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Test project for the SBAM implementation in Matching.cs.
+    ImplicitUsings must be enabled, because Matching.cs (as in DreamSMILE.csproj) does not itself
+    have "using System;" etc. The SMILE model is built for net7.0; net8.0 is used here, because it is
+    the nearest runtime installed on the machine.
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <RootNamespace>SbamTest</RootNamespace>
+    <AssemblyName>SbamTest</AssemblyName>
+  </PropertyGroup>
+
+  <!-- Required by SmileFiles\TabFileReader.cs (zip extraction and ODBC), same versions as in DreamSMILE.csproj -->
+  <ItemGroup>
+    <PackageReference Include="SharpCompress" Version="0.42.0" />
+    <PackageReference Include="System.Data.Odbc" Version="10.0.0" />
+  </ItemGroup>
+
+</Project>

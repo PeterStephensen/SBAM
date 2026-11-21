@@ -1,0 +1,91 @@
+--------------------------------------------------------------------------------
+      SBAM-test af Matching.cs
+--------------------------------------------------------------------------------
+    Version    CodeTest
+    Date       11/21/2026
+    Time       13:43
+--------------------------------------------------------------------------------
+
+WARNING: Matching - pairs.Count = 36132 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 35910 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 36132 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 35910 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 36175 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 36181 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 35361 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 35625 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 35527 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 36324 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 35490 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 35515 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 35528 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 35569 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 36326 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 36326 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 36325 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 36324 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 36325 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 35525 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 35538 < targetAntalPar = 36332
+WARNING: Matching - pairs.Count = 35621 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35358 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35621 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35358 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35639 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35626 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 34766 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35122 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35017 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35772 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35041 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35002 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 34989 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35035 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35770 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35770 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35771 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35769 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35774 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35016 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35002 < targetAntalPar = 35778
+WARNING: Matching - pairs.Count = 35848 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35553 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35848 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35553 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35811 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35830 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 34994 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35250 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35167 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35963 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35185 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35204 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35167 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35163 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35963 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35963 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35961 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35962 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35961 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35168 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 35198 < targetAntalPar = 35968
+WARNING: Matching - pairs.Count = 36283 < targetAntalPar = 36293
+WARNING: Matching - pairs.Count = 36279 < targetAntalPar = 36293
+WARNING: Matching - pairs.Count = 36285 < targetAntalPar = 36293
+WARNING: Matching - pairs.Count = 36283 < targetAntalPar = 36293
+WARNING: Matching - pairs.Count = 36279 < targetAntalPar = 36293
+WARNING: Matching - pairs.Count = 36282 < targetAntalPar = 36293
+WARNING: Matching - pairs.Count = 35692 < targetAntalPar = 35770
+WARNING: Matching - pairs.Count = 35764 < targetAntalPar = 35770
+WARNING: Matching - pairs.Count = 35757 < targetAntalPar = 35770
+WARNING: Matching - pairs.Count = 35762 < targetAntalPar = 35770
+WARNING: Matching - pairs.Count = 35762 < targetAntalPar = 35770
+WARNING: Matching - pairs.Count = 35757 < targetAntalPar = 35770
+WARNING: Matching - pairs.Count = 35765 < targetAntalPar = 35770
+WARNING: Matching - pairs.Count = 36081 < targetAntalPar = 36087
+WARNING: Matching - pairs.Count = 36077 < targetAntalPar = 36087
+WARNING: Matching - pairs.Count = 36072 < targetAntalPar = 36087
+WARNING: Matching - pairs.Count = 36073 < targetAntalPar = 36087
+WARNING: Matching - pairs.Count = 36073 < targetAntalPar = 36087
+WARNING: Matching - pairs.Count = 36073 < targetAntalPar = 36087
+WARNING: Matching - pairs.Count = 36077 < targetAntalPar = 36087
